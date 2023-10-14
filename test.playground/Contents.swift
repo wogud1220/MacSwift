@@ -1,19 +1,17 @@
-let val1: Int = 3
-let val2: Int = 4
-var result: Int
-var a: Int = 3;
-if val1 > val2 {
-    result = val1
+class AClass {
+    static func staticTypeMethod() {
+        print("AClass static type method") }
+    class func classTypeMethod() {
+        print("AClass class type method")
+    }
+    
 }
-else if val1 < val2 {
-result = val2
-}
-else if val1 == val2 { result = 0
-}
-else {
-result = -1
-
-
-
-}
-print(result)
+class BClass: AClass { /*
+                        override static func staticTypeMethod() { print("overriding AClass static type method")
+                        } */
+    override class func classTypeMethod() {
+        print("overriding AClass class type method")
+    } }
+AClass.staticTypeMethod()
+AClass.classTypeMethod()
+BClass.classTypeMethod()
