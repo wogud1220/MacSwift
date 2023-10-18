@@ -1,23 +1,23 @@
 //import UIKit
-import Swift
+//import Swift
 class Person {
     var height: Float = 0.0
     var weight: Float = 0.0
     init() {
         self.height = 10.0
         self.weight = 20.0
-    }
-    init(height: Float, weight: Float) { 
+}
+init(height: Float, weight: Float) {
     self.height = height
     self.weight = weight
-    }
+}
     init(a: Float) {
         self.height = a
         self.weight = a
-    }
+}
     deinit {
         print("Person class instance is deinitialized")
-} 
+}
 }
 var aPerson: Person = Person() // 기본 생성자를 통한 인스턴스 초기화 aPerson.height = 123.4
 aPerson.weight = 123.4
