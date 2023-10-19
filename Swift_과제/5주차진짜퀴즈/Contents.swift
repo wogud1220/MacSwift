@@ -5,7 +5,7 @@ class Course {
     var classB: [String: Double]
     
     // 클래스 Course의 memberwise 생성자를 정의하기 위해 line 8에서 ???로 표현된 부분 구현
-    init (classA: Dictionary[Array:Float], classB: Dictionary[Array:Float]) 
+    init (classA: Dictionary[String:Float], classB: Dictionary[String:Float]) 
     {
         self.classA = classA
         self.classB = classB
