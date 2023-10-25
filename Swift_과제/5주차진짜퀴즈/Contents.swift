@@ -28,9 +28,9 @@ func printScore(_ info: Course?) {
 }
 
 // 클래스 Course의 인스턴스를 함수 changeScore의 인자로 사용하기 위해 line 31에서 ???로 표현된 부분 구현
-func changeScore(_ info: Course?) {
+func changeScore(_ info: Course) {
     // 함수 changeScore에서 인자로 받은 클래스 Course의 인스턴스의 프로퍼티 classA와 classB의 과목 점수를 수정하도록 line 33에서 ???로 표현된 부분 구현
-    if let info.classA = info.classA{
+    if let info : info.classA = {
         info.classA["math"] = 91.1
         info.classA["english"] = 92.2
         info.classB["science"] = 93.3

@@ -23,9 +23,7 @@ tpl = (name: str, info: arr, score: dic)
 arr.append("male")
 
 // 튜플 tpl이 (name: "joe", info: [20000814, "male"], score: [1011: 99.3, 1012: "pass", 1013: "fail"])와 같이 변형되도록 아래의 line 25에서 ???로 표시된 부분 구현
-//arr=[20000814,"male"]
 arr.remove(at: 0)
-//변수 따로 만들어야하는지
 
 // 튜플 tpl이 (name: "joe", info: [20000814, "male"], score: [1011: 99.3, 1012: "pass", 1013: "pass"])와 같이 변형되도록 아래의 line 28에서 ???로 표시된 부분 구현
 
