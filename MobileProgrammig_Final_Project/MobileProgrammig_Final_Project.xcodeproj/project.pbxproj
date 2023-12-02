@@ -16,6 +16,7 @@
 		88A574ED2B188A0700F38425 /* MobileProgrammig_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A574EC2B188A0700F38425 /* MobileProgrammig_Final_ProjectTests.swift */; };
 		88A574F72B188A0700F38425 /* MobileProgrammig_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A574F62B188A0700F38425 /* MobileProgrammig_Final_ProjectUITests.swift */; };
 		88A574F92B188A0700F38425 /* MobileProgrammig_Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A574F82B188A0700F38425 /* MobileProgrammig_Final_ProjectUITestsLaunchTests.swift */; };
+		88A575092B1B473300F38425 /* sumnail_250.png in Resources */ = {isa = PBXBuildFile; fileRef = 88A575082B1B473200F38425 /* sumnail_250.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		88A574F22B188A0700F38425 /* MobileProgrammig_Final_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileProgrammig_Final_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A574F62B188A0700F38425 /* MobileProgrammig_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileProgrammig_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		88A574F82B188A0700F38425 /* MobileProgrammig_Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileProgrammig_Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88A575082B1B473200F38425 /* sumnail_250.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sumnail_250.png; path = ../../../../../sumnail_250.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		88A574D42B188A0400F38425 /* MobileProgrammig_Final_Project */ = {
 			isa = PBXGroup;
 			children = (
+				88A575052B1B41F200F38425 /* Image */,
 				88A574D52B188A0400F38425 /* AppDelegate.swift */,
 				88A574D72B188A0400F38425 /* SceneDelegate.swift */,
 				88A574D92B188A0400F38425 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				88A574F82B188A0700F38425 /* MobileProgrammig_Final_ProjectUITestsLaunchTests.swift */,
 			);
 			path = MobileProgrammig_Final_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		88A575052B1B41F200F38425 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				88A575082B1B473200F38425 /* sumnail_250.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88A574E22B188A0700F38425 /* LaunchScreen.storyboard in Resources */,
+				88A575092B1B473300F38425 /* sumnail_250.png in Resources */,
 				88A574DF2B188A0700F38425 /* Assets.xcassets in Resources */,
 				88A574DD2B188A0400F38425 /* Main.storyboard in Resources */,
 			);
