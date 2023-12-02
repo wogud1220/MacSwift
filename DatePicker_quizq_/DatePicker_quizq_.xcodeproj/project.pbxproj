@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88A573F42B0ECF1A00F38425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A573F32B0ECF1A00F38425 /* AppDelegate.swift */; };
+		88A573F62B0ECF1A00F38425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A573F52B0ECF1A00F38425 /* SceneDelegate.swift */; };
+		88A573F82B0ECF1A00F38425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A573F72B0ECF1A00F38425 /* ViewController.swift */; };
+		88A573FB2B0ECF1A00F38425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A573F92B0ECF1A00F38425 /* Main.storyboard */; };
+		88A573FD2B0ECF1C00F38425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88A573FC2B0ECF1C00F38425 /* Assets.xcassets */; };
+		88A574002B0ECF1C00F38425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A573FE2B0ECF1C00F38425 /* LaunchScreen.storyboard */; };
+		88A5740B2B0ECF1C00F38425 /* DatePicker_quizq_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A5740A2B0ECF1C00F38425 /* DatePicker_quizq_Tests.swift */; };
+		88A574152B0ECF1C00F38425 /* DatePicker_quizq_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A574142B0ECF1C00F38425 /* DatePicker_quizq_UITests.swift */; };
+		88A574172B0ECF1C00F38425 /* DatePicker_quizq_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A574162B0ECF1C00F38425 /* DatePicker_quizq_UITestsLaunchTests.swift */; };
+		88A574242B0ED00A00F38425 /* 20231101_010101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574232B0ED00A00F38425 /* 20231101_010101.jpg */; };
+		88A5742E2B0ED02500F38425 /* 20231103_010101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574252B0ED02400F38425 /* 20231103_010101.jpg */; };
+		88A5742F2B0ED02500F38425 /* 20231101_020101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574262B0ED02400F38425 /* 20231101_020101.jpg */; };
+		88A574302B0ED02500F38425 /* 20231110_010101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574272B0ED02400F38425 /* 20231110_010101.jpg */; };
+		88A574312B0ED02500F38425 /* 20231103_010201.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574282B0ED02400F38425 /* 20231103_010201.jpg */; };
+		88A574322B0ED02500F38425 /* 20231110_010102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A574292B0ED02500F38425 /* 20231110_010102.jpg */; };
+		88A574332B0ED02500F38425 /* 20231101_030101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A5742A2B0ED02500F38425 /* 20231101_030101.jpg */; };
+		88A574342B0ED02500F38425 /* 20231103_010301.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A5742B2B0ED02500F38425 /* 20231103_010301.jpg */; };
+		88A574352B0ED02500F38425 /* 20231110_010103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A5742C2B0ED02500F38425 /* 20231110_010103.jpg */; };
+		88A574362B0ED02500F38425 /* 20231110_010104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 88A5742D2B0ED02500F38425 /* 20231110_010104.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88A574072B0ECF1C00F38425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A573E82B0ECF1A00F38425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A573EF2B0ECF1A00F38425;
+			remoteInfo = DatePicker_quizq_;
+		};
+		88A574112B0ECF1C00F38425 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88A573E82B0ECF1A00F38425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88A573EF2B0ECF1A00F38425;
+			remoteInfo = DatePicker_quizq_;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88A573F02B0ECF1A00F38425 /* DatePicker_quizq_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker_quizq_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A573F32B0ECF1A00F38425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88A573F52B0ECF1A00F38425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88A573F72B0ECF1A00F38425 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88A573FA2B0ECF1A00F38425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88A573FC2B0ECF1C00F38425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88A573FF2B0ECF1C00F38425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88A574012B0ECF1C00F38425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88A574062B0ECF1C00F38425 /* DatePicker_quizq_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePicker_quizq_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A5740A2B0ECF1C00F38425 /* DatePicker_quizq_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_quizq_Tests.swift; sourceTree = "<group>"; };
+		88A574102B0ECF1C00F38425 /* DatePicker_quizq_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatePicker_quizq_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A574142B0ECF1C00F38425 /* DatePicker_quizq_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_quizq_UITests.swift; sourceTree = "<group>"; };
+		88A574162B0ECF1C00F38425 /* DatePicker_quizq_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_quizq_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88A574232B0ED00A00F38425 /* 20231101_010101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231101_010101.jpg; sourceTree = "<group>"; };
+		88A574252B0ED02400F38425 /* 20231103_010101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231103_010101.jpg; sourceTree = "<group>"; };
+		88A574262B0ED02400F38425 /* 20231101_020101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231101_020101.jpg; sourceTree = "<group>"; };
+		88A574272B0ED02400F38425 /* 20231110_010101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231110_010101.jpg; sourceTree = "<group>"; };
+		88A574282B0ED02400F38425 /* 20231103_010201.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231103_010201.jpg; sourceTree = "<group>"; };
+		88A574292B0ED02500F38425 /* 20231110_010102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231110_010102.jpg; sourceTree = "<group>"; };
+		88A5742A2B0ED02500F38425 /* 20231101_030101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231101_030101.jpg; sourceTree = "<group>"; };
+		88A5742B2B0ED02500F38425 /* 20231103_010301.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231103_010301.jpg; sourceTree = "<group>"; };
+		88A5742C2B0ED02500F38425 /* 20231110_010103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231110_010103.jpg; sourceTree = "<group>"; };
+		88A5742D2B0ED02500F38425 /* 20231110_010104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20231110_010104.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88A573ED2B0ECF1A00F38425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A574032B0ECF1C00F38425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A5740D2B0ECF1C00F38425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88A573E72B0ECF1A00F38425 = {
+			isa = PBXGroup;
+			children = (
+				88A573F22B0ECF1A00F38425 /* DatePicker_quizq_ */,
+				88A574092B0ECF1C00F38425 /* DatePicker_quizq_Tests */,
+				88A574132B0ECF1C00F38425 /* DatePicker_quizq_UITests */,
+				88A573F12B0ECF1A00F38425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88A573F12B0ECF1A00F38425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88A573F02B0ECF1A00F38425 /* DatePicker_quizq_.app */,
+				88A574062B0ECF1C00F38425 /* DatePicker_quizq_Tests.xctest */,
+				88A574102B0ECF1C00F38425 /* DatePicker_quizq_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88A573F22B0ECF1A00F38425 /* DatePicker_quizq_ */ = {
+			isa = PBXGroup;
+			children = (
+				88A574232B0ED00A00F38425 /* 20231101_010101.jpg */,
+				88A574262B0ED02400F38425 /* 20231101_020101.jpg */,
+				88A5742A2B0ED02500F38425 /* 20231101_030101.jpg */,
+				88A574252B0ED02400F38425 /* 20231103_010101.jpg */,
+				88A574282B0ED02400F38425 /* 20231103_010201.jpg */,
+				88A5742B2B0ED02500F38425 /* 20231103_010301.jpg */,
+				88A574272B0ED02400F38425 /* 20231110_010101.jpg */,
+				88A574292B0ED02500F38425 /* 20231110_010102.jpg */,
+				88A5742C2B0ED02500F38425 /* 20231110_010103.jpg */,
+				88A5742D2B0ED02500F38425 /* 20231110_010104.jpg */,
+				88A573F32B0ECF1A00F38425 /* AppDelegate.swift */,
+				88A573F52B0ECF1A00F38425 /* SceneDelegate.swift */,
+				88A573F72B0ECF1A00F38425 /* ViewController.swift */,
+				88A573F92B0ECF1A00F38425 /* Main.storyboard */,
+				88A573FC2B0ECF1C00F38425 /* Assets.xcassets */,
+				88A573FE2B0ECF1C00F38425 /* LaunchScreen.storyboard */,
+				88A574012B0ECF1C00F38425 /* Info.plist */,
+			);
+			path = DatePicker_quizq_;
+			sourceTree = "<group>";
+		};
+		88A574092B0ECF1C00F38425 /* DatePicker_quizq_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				88A5740A2B0ECF1C00F38425 /* DatePicker_quizq_Tests.swift */,
+			);
+			path = DatePicker_quizq_Tests;
+			sourceTree = "<group>";
+		};
+		88A574132B0ECF1C00F38425 /* DatePicker_quizq_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				88A574142B0ECF1C00F38425 /* DatePicker_quizq_UITests.swift */,
+				88A574162B0ECF1C00F38425 /* DatePicker_quizq_UITestsLaunchTests.swift */,
+			);
+			path = DatePicker_quizq_UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88A573EF2B0ECF1A00F38425 /* DatePicker_quizq_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A5741A2B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_" */;
+			buildPhases = (
+				88A573EC2B0ECF1A00F38425 /* Sources */,
+				88A573ED2B0ECF1A00F38425 /* Frameworks */,
+				88A573EE2B0ECF1A00F38425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePicker_quizq_;
+			productName = DatePicker_quizq_;
+			productReference = 88A573F02B0ECF1A00F38425 /* DatePicker_quizq_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88A574052B0ECF1C00F38425 /* DatePicker_quizq_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A5741D2B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_Tests" */;
+			buildPhases = (
+				88A574022B0ECF1C00F38425 /* Sources */,
+				88A574032B0ECF1C00F38425 /* Frameworks */,
+				88A574042B0ECF1C00F38425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A574082B0ECF1C00F38425 /* PBXTargetDependency */,
+			);
+			name = DatePicker_quizq_Tests;
+			productName = DatePicker_quizq_Tests;
+			productReference = 88A574062B0ECF1C00F38425 /* DatePicker_quizq_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88A5740F2B0ECF1C00F38425 /* DatePicker_quizq_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A574202B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_UITests" */;
+			buildPhases = (
+				88A5740C2B0ECF1C00F38425 /* Sources */,
+				88A5740D2B0ECF1C00F38425 /* Frameworks */,
+				88A5740E2B0ECF1C00F38425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88A574122B0ECF1C00F38425 /* PBXTargetDependency */,
+			);
+			name = DatePicker_quizq_UITests;
+			productName = DatePicker_quizq_UITests;
+			productReference = 88A574102B0ECF1C00F38425 /* DatePicker_quizq_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88A573E82B0ECF1A00F38425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					88A573EF2B0ECF1A00F38425 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					88A574052B0ECF1C00F38425 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 88A573EF2B0ECF1A00F38425;
+					};
+					88A5740F2B0ECF1C00F38425 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 88A573EF2B0ECF1A00F38425;
+					};
+				};
+			};
+			buildConfigurationList = 88A573EB2B0ECF1A00F38425 /* Build configuration list for PBXProject "DatePicker_quizq_" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88A573E72B0ECF1A00F38425;
+			productRefGroup = 88A573F12B0ECF1A00F38425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88A573EF2B0ECF1A00F38425 /* DatePicker_quizq_ */,
+				88A574052B0ECF1C00F38425 /* DatePicker_quizq_Tests */,
+				88A5740F2B0ECF1C00F38425 /* DatePicker_quizq_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88A573EE2B0ECF1A00F38425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A574002B0ECF1C00F38425 /* LaunchScreen.storyboard in Resources */,
+				88A574312B0ED02500F38425 /* 20231103_010201.jpg in Resources */,
+				88A574342B0ED02500F38425 /* 20231103_010301.jpg in Resources */,
+				88A5742F2B0ED02500F38425 /* 20231101_020101.jpg in Resources */,
+				88A573FD2B0ECF1C00F38425 /* Assets.xcassets in Resources */,
+				88A574302B0ED02500F38425 /* 20231110_010101.jpg in Resources */,
+				88A574242B0ED00A00F38425 /* 20231101_010101.jpg in Resources */,
+				88A574332B0ED02500F38425 /* 20231101_030101.jpg in Resources */,
+				88A574362B0ED02500F38425 /* 20231110_010104.jpg in Resources */,
+				88A574352B0ED02500F38425 /* 20231110_010103.jpg in Resources */,
+				88A573FB2B0ECF1A00F38425 /* Main.storyboard in Resources */,
+				88A5742E2B0ED02500F38425 /* 20231103_010101.jpg in Resources */,
+				88A574322B0ED02500F38425 /* 20231110_010102.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A574042B0ECF1C00F38425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A5740E2B0ECF1C00F38425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88A573EC2B0ECF1A00F38425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A573F82B0ECF1A00F38425 /* ViewController.swift in Sources */,
+				88A573F42B0ECF1A00F38425 /* AppDelegate.swift in Sources */,
+				88A573F62B0ECF1A00F38425 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A574022B0ECF1C00F38425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A5740B2B0ECF1C00F38425 /* DatePicker_quizq_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A5740C2B0ECF1C00F38425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A574152B0ECF1C00F38425 /* DatePicker_quizq_UITests.swift in Sources */,
+				88A574172B0ECF1C00F38425 /* DatePicker_quizq_UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88A574082B0ECF1C00F38425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A573EF2B0ECF1A00F38425 /* DatePicker_quizq_ */;
+			targetProxy = 88A574072B0ECF1C00F38425 /* PBXContainerItemProxy */;
+		};
+		88A574122B0ECF1C00F38425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88A573EF2B0ECF1A00F38425 /* DatePicker_quizq_ */;
+			targetProxy = 88A574112B0ECF1C00F38425 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88A573F92B0ECF1A00F38425 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A573FA2B0ECF1A00F38425 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88A573FE2B0ECF1C00F38425 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88A573FF2B0ECF1C00F38425 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88A574182B0ECF1C00F38425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88A574192B0ECF1C00F38425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88A5741B2B0ECF1C00F38425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatePicker_quizq_/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88A5741C2B0ECF1C00F38425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DatePicker_quizq_/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		88A5741E2B0ECF1C00F38425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePicker_quizq_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DatePicker_quizq_";
+			};
+			name = Debug;
+		};
+		88A5741F2B0ECF1C00F38425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatePicker_quizq_.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DatePicker_quizq_";
+			};
+			name = Release;
+		};
+		88A574212B0ECF1C00F38425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatePicker_quizq_;
+			};
+			name = Debug;
+		};
+		88A574222B0ECF1C00F38425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.DatePicker-quizq-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatePicker_quizq_;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88A573EB2B0ECF1A00F38425 /* Build configuration list for PBXProject "DatePicker_quizq_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A574182B0ECF1C00F38425 /* Debug */,
+				88A574192B0ECF1C00F38425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A5741A2B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A5741B2B0ECF1C00F38425 /* Debug */,
+				88A5741C2B0ECF1C00F38425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A5741D2B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A5741E2B0ECF1C00F38425 /* Debug */,
+				88A5741F2B0ECF1C00F38425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88A574202B0ECF1C00F38425 /* Build configuration list for PBXNativeTarget "DatePicker_quizq_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88A574212B0ECF1C00F38425 /* Debug */,
+				88A574222B0ECF1C00F38425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88A573E82B0ECF1A00F38425 /* Project object */;
+}
