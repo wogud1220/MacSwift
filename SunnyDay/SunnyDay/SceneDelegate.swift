@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SunnyDay
 //
-//  Created by 윤재형 on 8/28/24.
+//  Created by 윤재형 on 12/24/24.
 //
 
 import UIKit

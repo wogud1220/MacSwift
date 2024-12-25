@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MyFirstCalculator
 //
-//  Created by 윤재형 on 8/27/24.
+//  Created by 윤재형 on 12/21/24.
 //
 
 import UIKit

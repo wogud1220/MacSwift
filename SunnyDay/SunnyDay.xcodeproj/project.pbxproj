@@ -3,31 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		381ED4642C7F03EC00C8C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED4632C7F03EC00C8C963 /* AppDelegate.swift */; };
-		381ED4662C7F03EC00C8C963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED4652C7F03EC00C8C963 /* SceneDelegate.swift */; };
-		381ED4682C7F03EC00C8C963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381ED4672C7F03EC00C8C963 /* ViewController.swift */; };
-		381ED46B2C7F03EC00C8C963 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 381ED46A2C7F03EC00C8C963 /* Base */; };
-		381ED46D2C7F03EE00C8C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381ED46C2C7F03EE00C8C963 /* Assets.xcassets */; };
-		381ED4702C7F03EE00C8C963 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 381ED46F2C7F03EE00C8C963 /* Base */; };
-/* End PBXBuildFile section */
+/* Begin PBXContainerItemProxy section */
+		38898A352D1ABF770093D289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38898A162D1ABF750093D289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38898A1D2D1ABF750093D289;
+			remoteInfo = SunnyDay;
+		};
+		38898A3F2D1ABF780093D289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38898A162D1ABF750093D289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38898A1D2D1ABF750093D289;
+			remoteInfo = SunnyDay;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		381ED4602C7F03EC00C8C963 /* SunnyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		381ED4632C7F03EC00C8C963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		381ED4652C7F03EC00C8C963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		381ED4672C7F03EC00C8C963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		381ED46A2C7F03EC00C8C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		381ED46C2C7F03EE00C8C963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		381ED46F2C7F03EE00C8C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		381ED4712C7F03EE00C8C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38898A1E2D1ABF750093D289 /* SunnyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunnyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38898A342D1ABF770093D289 /* SunnyDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38898A3E2D1ABF780093D289 /* SunnyDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunnyDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		38898A462D1ABF780093D289 /* Exceptions for "SunnyDay" folder in "SunnyDay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 38898A1D2D1ABF750093D289 /* SunnyDay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		38898A202D1ABF750093D289 /* SunnyDay */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38898A462D1ABF780093D289 /* Exceptions for "SunnyDay" folder in "SunnyDay" target */,
+			);
+			path = SunnyDay;
+			sourceTree = "<group>";
+		};
+		38898A372D1ABF770093D289 /* SunnyDayTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SunnyDayTests;
+			sourceTree = "<group>";
+		};
+		38898A412D1ABF780093D289 /* SunnyDayUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SunnyDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		381ED45D2C7F03EC00C8C963 /* Frameworks */ = {
+		38898A1B2D1ABF750093D289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A312D1ABF770093D289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A3B2D1ABF780093D289 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,136 +85,260 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		381ED4572C7F03EC00C8C963 = {
+		38898A152D1ABF750093D289 = {
 			isa = PBXGroup;
 			children = (
-				381ED4622C7F03EC00C8C963 /* SunnyDay */,
-				381ED4612C7F03EC00C8C963 /* Products */,
+				38898A202D1ABF750093D289 /* SunnyDay */,
+				38898A372D1ABF770093D289 /* SunnyDayTests */,
+				38898A412D1ABF780093D289 /* SunnyDayUITests */,
+				38898A1F2D1ABF750093D289 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		381ED4612C7F03EC00C8C963 /* Products */ = {
+		38898A1F2D1ABF750093D289 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				381ED4602C7F03EC00C8C963 /* SunnyDay.app */,
+				38898A1E2D1ABF750093D289 /* SunnyDay.app */,
+				38898A342D1ABF770093D289 /* SunnyDayTests.xctest */,
+				38898A3E2D1ABF780093D289 /* SunnyDayUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		381ED4622C7F03EC00C8C963 /* SunnyDay */ = {
-			isa = PBXGroup;
-			children = (
-				381ED4632C7F03EC00C8C963 /* AppDelegate.swift */,
-				381ED4652C7F03EC00C8C963 /* SceneDelegate.swift */,
-				381ED4672C7F03EC00C8C963 /* ViewController.swift */,
-				381ED4692C7F03EC00C8C963 /* Main.storyboard */,
-				381ED46C2C7F03EE00C8C963 /* Assets.xcassets */,
-				381ED46E2C7F03EE00C8C963 /* LaunchScreen.storyboard */,
-				381ED4712C7F03EE00C8C963 /* Info.plist */,
-			);
-			path = SunnyDay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		381ED45F2C7F03EC00C8C963 /* SunnyDay */ = {
+		38898A1D2D1ABF750093D289 /* SunnyDay */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 381ED4742C7F03EE00C8C963 /* Build configuration list for PBXNativeTarget "SunnyDay" */;
+			buildConfigurationList = 38898A472D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDay" */;
 			buildPhases = (
-				381ED45C2C7F03EC00C8C963 /* Sources */,
-				381ED45D2C7F03EC00C8C963 /* Frameworks */,
-				381ED45E2C7F03EC00C8C963 /* Resources */,
+				38898A1A2D1ABF750093D289 /* Sources */,
+				38898A1B2D1ABF750093D289 /* Frameworks */,
+				38898A1C2D1ABF750093D289 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			fileSystemSynchronizedGroups = (
+				38898A202D1ABF750093D289 /* SunnyDay */,
+			);
 			name = SunnyDay;
+			packageProductDependencies = (
+			);
 			productName = SunnyDay;
-			productReference = 381ED4602C7F03EC00C8C963 /* SunnyDay.app */;
+			productReference = 38898A1E2D1ABF750093D289 /* SunnyDay.app */;
 			productType = "com.apple.product-type.application";
+		};
+		38898A332D1ABF770093D289 /* SunnyDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38898A4C2D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDayTests" */;
+			buildPhases = (
+				38898A302D1ABF770093D289 /* Sources */,
+				38898A312D1ABF770093D289 /* Frameworks */,
+				38898A322D1ABF770093D289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38898A362D1ABF770093D289 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38898A372D1ABF770093D289 /* SunnyDayTests */,
+			);
+			name = SunnyDayTests;
+			packageProductDependencies = (
+			);
+			productName = SunnyDayTests;
+			productReference = 38898A342D1ABF770093D289 /* SunnyDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38898A3D2D1ABF780093D289 /* SunnyDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38898A4F2D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDayUITests" */;
+			buildPhases = (
+				38898A3A2D1ABF780093D289 /* Sources */,
+				38898A3B2D1ABF780093D289 /* Frameworks */,
+				38898A3C2D1ABF780093D289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38898A402D1ABF780093D289 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				38898A412D1ABF780093D289 /* SunnyDayUITests */,
+			);
+			name = SunnyDayUITests;
+			packageProductDependencies = (
+			);
+			productName = SunnyDayUITests;
+			productReference = 38898A3E2D1ABF780093D289 /* SunnyDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		381ED4582C7F03EC00C8C963 /* Project object */ = {
+		38898A162D1ABF750093D289 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					381ED45F2C7F03EC00C8C963 = {
-						CreatedOnToolsVersion = 15.4;
+					38898A1D2D1ABF750093D289 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					38898A332D1ABF770093D289 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 38898A1D2D1ABF750093D289;
+					};
+					38898A3D2D1ABF780093D289 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 38898A1D2D1ABF750093D289;
 					};
 				};
 			};
-			buildConfigurationList = 381ED45B2C7F03EC00C8C963 /* Build configuration list for PBXProject "SunnyDay" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 38898A192D1ABF750093D289 /* Build configuration list for PBXProject "SunnyDay" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 381ED4572C7F03EC00C8C963;
-			productRefGroup = 381ED4612C7F03EC00C8C963 /* Products */;
+			mainGroup = 38898A152D1ABF750093D289;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 38898A1F2D1ABF750093D289 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				381ED45F2C7F03EC00C8C963 /* SunnyDay */,
+				38898A1D2D1ABF750093D289 /* SunnyDay */,
+				38898A332D1ABF770093D289 /* SunnyDayTests */,
+				38898A3D2D1ABF780093D289 /* SunnyDayUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		381ED45E2C7F03EC00C8C963 /* Resources */ = {
+		38898A1C2D1ABF750093D289 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381ED46D2C7F03EE00C8C963 /* Assets.xcassets in Resources */,
-				381ED4702C7F03EE00C8C963 /* Base in Resources */,
-				381ED46B2C7F03EC00C8C963 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A322D1ABF770093D289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A3C2D1ABF780093D289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		381ED45C2C7F03EC00C8C963 /* Sources */ = {
+		38898A1A2D1ABF750093D289 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381ED4682C7F03EC00C8C963 /* ViewController.swift in Sources */,
-				381ED4642C7F03EC00C8C963 /* AppDelegate.swift in Sources */,
-				381ED4662C7F03EC00C8C963 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A302D1ABF770093D289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38898A3A2D1ABF780093D289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		381ED4692C7F03EC00C8C963 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				381ED46A2C7F03EC00C8C963 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		38898A362D1ABF770093D289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38898A1D2D1ABF750093D289 /* SunnyDay */;
+			targetProxy = 38898A352D1ABF770093D289 /* PBXContainerItemProxy */;
 		};
-		381ED46E2C7F03EE00C8C963 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				381ED46F2C7F03EE00C8C963 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
+		38898A402D1ABF780093D289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38898A1D2D1ABF750093D289 /* SunnyDay */;
+			targetProxy = 38898A3F2D1ABF780093D289 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		381ED4722C7F03EE00C8C963 /* Debug */ = {
+		38898A482D1ABF780093D289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunnyDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38898A492D1ABF780093D289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunnyDay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38898A4A2D1ABF780093D289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -229,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		381ED4732C7F03EE00C8C963 /* Release */ = {
+		38898A4B2D1ABF780093D289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -285,84 +457,118 @@
 			};
 			name = Release;
 		};
-		381ED4752C7F03EE00C8C963 /* Debug */ = {
+		38898A4D2D1ABF780093D289 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ALUU68J89L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SunnyDay/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDay;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunnyDay";
 			};
 			name = Debug;
 		};
-		381ED4762C7F03EE00C8C963 /* Release */ = {
+		38898A4E2D1ABF780093D289 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ALUU68J89L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SunnyDay/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDay;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDayTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunnyDay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SunnyDay";
+			};
+			name = Release;
+		};
+		38898A502D1ABF780093D289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunnyDay;
+			};
+			name = Debug;
+		};
+		38898A512D1ABF780093D289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ALUU68J89L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = wogud.SunnyDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunnyDay;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		381ED45B2C7F03EC00C8C963 /* Build configuration list for PBXProject "SunnyDay" */ = {
+		38898A192D1ABF750093D289 /* Build configuration list for PBXProject "SunnyDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				381ED4722C7F03EE00C8C963 /* Debug */,
-				381ED4732C7F03EE00C8C963 /* Release */,
+				38898A4A2D1ABF780093D289 /* Debug */,
+				38898A4B2D1ABF780093D289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		381ED4742C7F03EE00C8C963 /* Build configuration list for PBXNativeTarget "SunnyDay" */ = {
+		38898A472D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				381ED4752C7F03EE00C8C963 /* Debug */,
-				381ED4762C7F03EE00C8C963 /* Release */,
+				38898A482D1ABF780093D289 /* Debug */,
+				38898A492D1ABF780093D289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38898A4C2D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38898A4D2D1ABF780093D289 /* Debug */,
+				38898A4E2D1ABF780093D289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38898A4F2D1ABF780093D289 /* Build configuration list for PBXNativeTarget "SunnyDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38898A502D1ABF780093D289 /* Debug */,
+				38898A512D1ABF780093D289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 381ED4582C7F03EC00C8C963 /* Project object */;
+	rootObject = 38898A162D1ABF750093D289 /* Project object */;
 }
