@@ -18,6 +18,18 @@ class ViewController: UIViewController {
     //버튼의 보여주는 역할 (+, -, *, /)
     @IBOutlet weak var operatorButton: UIButton!
     
+    
+    
+    func showAlert(message: String){
+        let alert = UIAlertController(title: "알림", message: message, preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "확인", style: .default)
+        alert.addAction(okAction)
+        
+        present(alert, animated: true)
+    }
+    
+    
     //버튼의 변화하는 액션
     @IBAction func selectOperator(_ sender: Any) {
         
@@ -65,35 +77,47 @@ class ViewController: UIViewController {
     
     //계산 버튼 누르면 나오는 액션
     @IBAction func calculate(_ sender: Any) {
-        let a = Int(firstOperandField.text!)!
-        let b = Int(secondOperandField.text!)!
         
-        
-        let op = operatorButton.title(for: .normal)!
-        let result: Int
-        
-        if op == "+" {
-            result = a + b;
-            resultLable.text = String(result)
-        }
-        else if op == "-" {
-            result = a - b;
-            resultLable.text = String(result)
-        }
-        else if op == "*" {
-            result = a * b;
-            resultLable.text = String(result)
-        }
-        else if op == "/" {
-            result = a / b;
-            resultLable.text = String(result)
-        }
-        else {
-            //처음 실행할때 ? 예외 처리
-            print("연산자 선택")
+        guard let text = firstOperandField.text, let a = Int(text) else{
+            showAlert(message: "첫번째 값을 입력해주세요")
+            
+            return
         }
         
+        guard let text = secondOperandField.text, let b = Int(text) else{
+            showAlert(message: "두번째 값을 입력해주세요.")
+            return
+        }
+        //binding 성공, op가 ?가 아닐 경우 실행
+        guard let op = operatorButton.title(for: .normal), op != "?" else {
+            
+            showAlert(message: "연산자를 입력해주세요")
+            return
+        }
         
+        var result: Int? = nil
+        
+        switch op {
+            case "+":
+                result = a + b
+            case "-":
+                result = a - b
+            case "*":
+                result = a * b
+            case "/":
+                result = a / b
+        default: break
+        }
+        
+        
+        guard let result else {
+            return
+        }
+        
+        
+        resultLable.text = String(result)
+        
+    
         
     }
     
