@@ -9,4 +9,4 @@ func printHello() -> Void{
     print("Hello")
 }
 
-printHello()
+printHello() 

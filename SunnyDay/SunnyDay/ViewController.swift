@@ -16,27 +16,23 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tempinfo: UILabel!
     
-     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        let weather = "비"
-        let temperature = 17
-        
-        
+    func getWeatherImage(matching weather: String) -> UIImage? {
         if weather == "맑음" {
-            weatherImageView.image = UIImage(named: "003_sunny")
+            return UIImage(named: "003_sunny")
         }
         else if weather == "흐림" {
-            weatherImageView.image = UIImage(named: "001_cloud")
+            return UIImage(named: "001_cloud")
         }
         else if weather == "비"{
-            weatherImageView.image = UIImage(named: "002_rainy")
+            return UIImage(named: "002_rainy")
         }
-        statusLabel.text = weather
-        tempLabel.text = String(temperature);
-        
+        else {
+            return nil
+        }
+    }
+    
+    
+    func getTemp(temperature: Int) -> String?{
         switch temperature {
         case -100 ..< -10:
             tempinfo.text = "이불 밖은 위험해요"
@@ -49,8 +45,28 @@ class ViewController: UIViewController {
         default:
             break ;
         }
+        return nil
+    }
+    
+    
+    
+    
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        
+        //nil coalescing operator
+        let weather = ["맑음", "눈", "비"].randomElement() ?? "맑음"
+        let temperature = Int.random(in: -20...30)
         
         
+        weatherImageView.image = getWeatherImage(matching: weather)
+        statusLabel.text = weather
+        tempLabel.text = String(temperature);
+        tempinfo.text = getTemp(temperature: temperature)
         
         
         
