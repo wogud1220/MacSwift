@@ -18,14 +18,62 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var number7Label: UILabel!
     
+    @IBOutlet var labels: [UILabel]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    
+        
+    }
+    func getColors (from number: Int?) -> (backgroundColor: UIColor, textColor: UIColor){
+        
+        //넘버가 닐이라면 else 실행
+        guard let number else{
+            return (UIColor.purple, UIColor.white)
+        }
+        switch number{
+        case 1...10:
+            return (UIColor.yellow, UIColor.black)
+        case 11...20:
+            return(UIColor.blue, UIColor.white)
+        case 21...30:
+            return(UIColor.red, UIColor.white)
+        case 31...40:
+            return(UIColor.gray, UIColor.white)
+        case 41...45:
+            return(UIColor.green, UIColor.black)
+        default:
+            return(UIColor.purple, UIColor.white)
+        }
+        
+        
     }
     
     
+    //화면을 회전 시킬 때 마다 크기 재조정
+    //labels란 outletcolletions을 만들어서 한번에 처리함
+    override func viewWillTransition(to size: CGSize, with coordinator: any UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        
+        coordinator.animate { _ in
+            //enumerate를 쓰면 2개의 인자 전달 가능
+            //closure안에라서 self사용해야됨
+            for label in self.labels {
+                //깎이긴 했어도 background가 색을 채워버림.
+                label.layer.cornerRadius = label.bounds.width / 2
+                //깎인 부분은 채우지 않겠다.
+                label.clipsToBounds = true
+
+               
+            }
+        }
+    }
+    
+    
+    
     //view의 크기가 결정된 다음에 /2 하기.
+    //화면이 표시된 직후 자동으로 호출되는 메소드 (콜백 메소드)
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
@@ -34,15 +82,19 @@ class ViewController: UIViewController {
         var nums : [Int] = []
         
         //7보다 작을 때
-        while nums.count < labels.count {
+        //method안에 있어서 self안써도 됨
+        while nums.count < self.labels.count {
             let rnd = Int.random(in: 1...45)
             //랜덤 값이 없으면 append해라.
             if !nums.contains(rnd) {
                 nums.append(rnd)
             }
         }
-        let sortedNums = nums.sorted()
         
+        
+        
+        
+        nums.sort()
         
         //enumerate를 쓰면 2개의 인자 전달 가능
         for (index, label) in labels.enumerated() {
@@ -50,26 +102,14 @@ class ViewController: UIViewController {
             label.layer.cornerRadius = label.bounds.width / 2
             //깎인 부분은 채우지 않겠다.
             label.clipsToBounds = true
-            label.text = String(sortedNums[index])
-            
-            switch sortedNums[index]{
-                case 1...10: label.backgroundColor = UIColor.yellow
-                label.textColor = UIColor.black
-                case 11...20: label.backgroundColor = UIColor.blue
-                label.textColor = UIColor.white
-                case 21...30: label.backgroundColor = UIColor.red
-                label.textColor = UIColor.white
-                case 31...40: label.backgroundColor = UIColor.gray
-                label.textColor = UIColor.white
-                case 41...45: label.backgroundColor = UIColor.green
-                label.textColor = UIColor.black
-                default:
-                    break;
-            }
+            label.text = String(nums[index])
+            label.backgroundColor = getColors(from: nums[index]).backgroundColor
+            label.textColor = getColors(from: nums[index]).textColor
+           
         }
-        
-        number7Label.backgroundColor = UIColor.purple
-        number7Label.textColor = UIColor.white
+        let colors = getColors(from: nil)
+        number7Label.backgroundColor = colors.backgroundColor
+        number7Label.textColor = colors.textColor
         
         
         
