@@ -96,6 +96,13 @@
                         <outlet property="number5Label" destination="XYs-d7-EBP" id="KZS-lb-Gdl"/>
                         <outlet property="number6Label" destination="CSa-ir-dQ3" id="NQU-7y-exp"/>
                         <outlet property="number7Label" destination="rMT-gN-YLR" id="gK5-yX-ltY"/>
+                        <outletCollection property="labels" destination="NlC-yi-Mhy" collectionClass="NSMutableArray" id="iBX-62-E5k"/>
+                        <outletCollection property="labels" destination="Ahf-g4-QHa" collectionClass="NSMutableArray" id="37h-o9-fyV"/>
+                        <outletCollection property="labels" destination="7xv-bM-Lje" collectionClass="NSMutableArray" id="VrV-ez-IPb"/>
+                        <outletCollection property="labels" destination="49a-60-g5R" collectionClass="NSMutableArray" id="7xr-PE-oau"/>
+                        <outletCollection property="labels" destination="XYs-d7-EBP" collectionClass="NSMutableArray" id="1I7-dI-8Yc"/>
+                        <outletCollection property="labels" destination="CSa-ir-dQ3" collectionClass="NSMutableArray" id="0BG-RG-1YO"/>
+                        <outletCollection property="labels" destination="rMT-gN-YLR" collectionClass="NSMutableArray" id="25O-fy-m0l"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
